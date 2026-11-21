@@ -56,6 +56,26 @@ Generated from the n8n workflows: every node and connection as built.
 
 ![Workflow map](docs/screenshots/01-workflow-map.png)
 
+## Workflows in n8n
+
+Each workflow carries notes on the canvas that explain every step.
+
+**1 · Orchestrator** (call queue and start)
+
+![Orchestrator workflow](docs/screenshots/02-workflow-orchestrator.png)
+
+**2 · Call start** (lead lookup and call variables)
+
+![Call start workflow](docs/screenshots/03-workflow-call-start.png)
+
+**3 · During the call** (lead update in Zoho)
+
+![During the call workflow](docs/screenshots/04-workflow-during-call.png)
+
+**4 · After the call** (transcript to Google Docs)
+
+![After the call workflow](docs/screenshots/05-workflow-after-call.png)
+
 ## Get the full workflow
 
 The workflow files and assistant scripts are not published. To hear a demo call, or to get it set up for your CRM and your call script:
